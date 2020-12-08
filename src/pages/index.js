@@ -142,9 +142,13 @@ const HomeStyles = styled.div`
       margin-left: 14%;
       padding-top: 0%;
     }
+
+    .ffte {
+      top: 0px;
+    }
   }
-  @media (max-width: 900px) {
-    .vid_2 {
+  @media (max-width: 980px) {
+    .vid_222 {
       width: 86vw;
       height: 74vh;
       overflow: hidden;
@@ -152,6 +156,16 @@ const HomeStyles = styled.div`
       padding-top: 0%;
       position: relative;
       top: -9px;
+    }
+
+    .vid_2 {
+      width: 72vw;
+      height: 74vh;
+      overflow: hidden;
+      margin-left: 20%;
+      padding-top: 0%;
+      position: relative;
+      top: -99px;
     }
 
     .ffte {
@@ -163,18 +177,58 @@ const HomeStyles = styled.div`
       padding-top: 36%;
     }
   }
-  @media (max-width: 720px) {
+
+  @media (max-width: 830px) {
     .vid_2 {
-      width: 79vw;
+      width: 72vw;
+      height: 74vh;
+      overflow: hidden;
+      margin-left: 20%;
+      padding-top: 0%;
+      position: relative;
+      top: -19px;
     }
 
     .ffte {
-      top: 75px;
+      position: absolute;
+      top: 0px;
+      left: 4px;
+      min-width: 97%;
+      height: 75%;
+      padding-top: 36%;
+    }
+  }
+
+  @media (max-width: 780px) {
+    .vid_2 {
+      width: 68vw;
+      height: 74vh;
+      overflow: hidden;
+      margin-left: 20%;
+      padding-top: 0%;
+      position: relative;
+      top: -110px;
+    }
+  }
+
+  @media (max-width: 660px) {
+    .vid_2 {
+      width: 86vw;
+      top: -12px;
+      margin-left: 10%;
+    }
+
+    .ffte {
+      top: 93px;
+      left: -75px;
+      min-width: 125%;
+      height: 75%;
+      padding-top: 36%;
     }
   }
   @media (max-width: 400px) {
     .vid_2 {
-      width: 125vw;
+      width: 124vw;
       height: 75vh;
       margin-left: 0%;
       position: initial;
@@ -190,154 +244,158 @@ const HomeStyles = styled.div`
   }
 `;
 
-const IndexPage = () => (
-  <>
-    <SEO title="FFTE" />
-    <HomeStyles>
-      {window.location.pathname === "/" ? (
-        <div className="container">
-          <div className="header_wrap">
-            <div className="full_screen_wrap">
-              <BGvideo />
-            </div>
+const IndexPage = () => {
+  const resizeWindow = () => typeof window !== `undefined`;
 
-            <div className="ffte">
-              <svg
-                id="Layer_1"
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1920 812.85"
-              >
-                <g className="header-backdrop" mask="url(#header-mask)">
-                  <rect
-                    id="cover"
-                    x="-5%"
-                    y="-5%"
-                    width="110%"
-                    height="110%"
-                    style={{ fill: "white" }}
-                  />
-                </g>
-                <g className="transparent_text">
-                  <text
-                    className="cls_1"
-                    id="heading"
-                    transform="translate(417.31 593.69) scale(0.96 1)"
-                  >
-                    <Link className="artist" to="/artist">
-                      <tspan>F</tspan>
-                    </Link>
-                    <Link className="shop hvr-grow" to="/shop">
-                      <tspan className="cls_2" x="263.83" y="0">
-                        F
-                      </tspan>
-                    </Link>
-                    {/* </text>
+  return (
+    <>
+      <SEO title="FFTE" />
+      <HomeStyles>
+        {resizeWindow() && window.location.pathname === "/" ? (
+          <div className="container">
+            <div className="header_wrap">
+              <div className="full_screen_wrap">
+                <BGvideo />
+              </div>
+
+              <div className="ffte">
+                <svg
+                  id="Layer_1"
+                  data-name="Layer 1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 1920 812.85"
+                >
+                  <g className="header-backdrop" mask="url(#header-mask)">
+                    <rect
+                      id="cover"
+                      x="-5%"
+                      y="-5%"
+                      width="110%"
+                      height="110%"
+                      style={{ fill: "white" }}
+                    />
+                  </g>
+                  <g className="transparent_text">
+                    <text
+                      className="cls_1"
+                      id="heading"
+                      transform="translate(417.31 593.69) scale(0.96 1)"
+                    >
+                      <Link className="artist" to="/artist">
+                        <tspan>F</tspan>
+                      </Link>
+                      <Link className="shop hvr-grow" to="/shop">
+                        <tspan className="cls_2" x="263.83" y="0">
+                          F
+                        </tspan>
+                      </Link>
+                      {/* </text>
                 </g> */}
+                      <a
+                        href="http://ffteblog.com/"
+                        className="blog hvr-grow"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <tspan className="cls_3" x="548.24" y="0">
+                          T
+                        </tspan>
+                      </a>
+                      <Link className="contact hvr-grow" to="/connect">
+                        <tspan className="cls_3" x="850.24" y="0">
+                          E
+                        </tspan>
+                      </Link>
+                    </text>
+                    <Link className="artist hvr-grow" to="/artist">
+                      <text
+                        className="cls_4"
+                        transform="translate(460.35 706.24) scale(0.96 1)"
+                        id="far"
+                      >
+                        F
+                        <tspan className="cls_5" x="52.29" y="0">
+                          a
+                        </tspan>
+                        <tspan className="cls_6" x="86.9" y="0">
+                          r
+                        </tspan>
+                      </text>
+                    </Link>
+                    <Link className="shop hvr-grow " to="/shop">
+                      <text
+                        className="cls_4"
+                        transform="translate(717.38 705.91) scale(0.96 1)"
+                        id="from"
+                      >
+                        <tspan className="cls_7">F</tspan>
+                        <tspan className="cls_8" x="39.31" y="0">
+                          r
+                        </tspan>
+                        <tspan className="cls_9" x="67.29" y="0">
+                          o
+                        </tspan>
+                        <tspan x="85.89" y="0">
+                          m
+                        </tspan>
+                      </text>
+                    </Link>
                     <a
                       href="http://ffteblog.com/"
                       className="blog hvr-grow"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <tspan className="cls_3" x="548.24" y="0">
-                        T
-                      </tspan>
+                      <text
+                        className="cls_4"
+                        transform="translate(1023.71 705.91) scale(0.96 1)"
+                        id="the"
+                      >
+                        <tspan className="cls_10">T</tspan>
+                        <tspan className="cls_11" x="50.28" y="0">
+                          h
+                        </tspan>
+                        <tspan x="73.8" y="0">
+                          e
+                        </tspan>
+                      </text>
                     </a>
                     <Link className="contact hvr-grow" to="/connect">
-                      <tspan className="cls_3" x="850.24" y="0">
+                      <text
+                        className="cls_4"
+                        transform="translate(1291.5 705.91) scale(0.96 1)"
+                        id="east"
+                      >
                         E
-                      </tspan>
+                        <tspan className="cls_12" x="50.63" y="0">
+                          a
+                        </tspan>
+                        <tspan className="cls_13" x="75.49" y="0">
+                          s
+                        </tspan>
+                        <tspan x="119.95" y="0">
+                          t
+                        </tspan>
+                      </text>
                     </Link>
-                  </text>
-                  <Link className="artist hvr-grow" to="/artist">
-                    <text
-                      className="cls_4"
-                      transform="translate(460.35 706.24) scale(0.96 1)"
-                      id="far"
-                    >
-                      F
-                      <tspan className="cls_5" x="52.29" y="0">
-                        a
-                      </tspan>
-                      <tspan className="cls_6" x="86.9" y="0">
-                        r
-                      </tspan>
-                    </text>
-                  </Link>
-                  <Link className="shop hvr-grow " to="/shop">
-                    <text
-                      className="cls_4"
-                      transform="translate(717.38 705.91) scale(0.96 1)"
-                      id="from"
-                    >
-                      <tspan className="cls_7">F</tspan>
-                      <tspan className="cls_8" x="39.31" y="0">
-                        r
-                      </tspan>
-                      <tspan className="cls_9" x="67.29" y="0">
-                        o
-                      </tspan>
-                      <tspan x="85.89" y="0">
-                        m
-                      </tspan>
-                    </text>
-                  </Link>
-                  <a
-                    href="http://ffteblog.com/"
-                    className="blog hvr-grow"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <text
-                      className="cls_4"
-                      transform="translate(1023.71 705.91) scale(0.96 1)"
-                      id="the"
-                    >
-                      <tspan className="cls_10">T</tspan>
-                      <tspan className="cls_11" x="50.28" y="0">
-                        h
-                      </tspan>
-                      <tspan x="73.8" y="0">
-                        e
-                      </tspan>
-                    </text>
-                  </a>
-                  <Link className="contact hvr-grow" to="/connect">
-                    <text
-                      className="cls_4"
-                      transform="translate(1291.5 705.91) scale(0.96 1)"
-                      id="east"
-                    >
-                      E
-                      <tspan className="cls_12" x="50.63" y="0">
-                        a
-                      </tspan>
-                      <tspan className="cls_13" x="75.49" y="0">
-                        s
-                      </tspan>
-                      <tspan x="119.95" y="0">
-                        t
-                      </tspan>
-                    </text>
-                  </Link>
-                </g>
-                <mask id="header-mask">
-                  <use href="#cover" style={{ fill: "white" }} />
-                  6
-                  <use href="#heading" />
-                  <use href="#far" />
-                  <use href="#from" />
-                  <use href="#the" />
-                  <use href="#east" />
-                </mask>
-              </svg>
+                  </g>
+                  <mask id="header-mask">
+                    <use href="#cover" style={{ fill: "white" }} />
+                    6
+                    <use href="#heading" />
+                    <use href="#far" />
+                    <use href="#from" />
+                    <use href="#the" />
+                    <use href="#east" />
+                  </mask>
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-      ) : null}
-    </HomeStyles>
-  </>
-);
+        ) : null}
+      </HomeStyles>
+    </>
+  );
+};
 
 export default IndexPage;

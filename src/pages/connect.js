@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ConnectStyles from "../styles/ConnectStyles";
 import ContactForm from "../components/contactform";
 import {
@@ -24,6 +24,8 @@ const Connect = () => {
     // eslint-disable-next-line
     let reorder = window.innerWidth <= 703;
   };
+
+  const resizeWindow = () => typeof window !== `undefined`;
 
   return (
     <ConnectStyles>
@@ -91,7 +93,7 @@ const Connect = () => {
                 />
               </div>
               <div className="team-members ">
-                {window.innerWidth < 704 ? (
+                {resizeWindow() && window.innerWidth < 704 ? (
                   <>
                     <figure>
                       <img
