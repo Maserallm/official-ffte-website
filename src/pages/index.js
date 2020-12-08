@@ -8,22 +8,6 @@ import SEO from "../components/seo";
 import BGvideo from "../components/bgvideo";
 
 const HomeStyles = styled.div`
-  @font-face {
-    font-family: "santos_dumont";
-    src: url("../assets/fonts/santo___-webfont.woff") format("woff"),
-      url("../assets/fonts/santo___-webfont.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "impact";
-    src: url("../assets/fonts/Impact.woff") format("woff"),
-      url("../assets/fonts/Impact.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-  }
-
   /* Body config */
   .container 
 /* CSS for SVG Overlay */
@@ -227,6 +211,16 @@ const HomeStyles = styled.div`
     }
   }
   @media (max-width: 400px) {
+    .cls_4 {
+      font-size: 92.06px;
+      font-family: santos_dumont, SANTOSDUMONT, SANTOS DUMONT;
+    }
+
+    .cls_1 {
+      font-size: 662.98px;
+      font-family: impact;
+    }
+
     .vid_2 {
       width: 124vw;
       height: 75vh;
