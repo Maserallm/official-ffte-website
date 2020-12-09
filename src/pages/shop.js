@@ -44,7 +44,7 @@ const Shop = () => {
       <div className="container_">
         <h1 className="header1">OFFICIAL FFTE SHOP</h1>
         <p className="header2">The Latest Drops From the Ends.</p>
-        <h3 className="fwStyle">FALL / WINTER 2020</h3>
+        <h3 className="fwStyle">WINTER 2021</h3>
       </div>
     </ShopStyles>
   );

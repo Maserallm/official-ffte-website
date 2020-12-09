@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 
 import Layout from "../components/layout";
+import Maintenece from "../components/maintainance_message";
 
 import SEO from "../components/seo";
 import BGvideo from "../components/bgvideo";
@@ -118,19 +119,6 @@ const HomeStyles = styled.div`
     margin-left: 14%;
   }
 
-  @media (max-width: 1200px) {
-    .vid_2 {
-      width: 81vw;
-      height: 88vh;
-      overflow: hidden;
-      margin-left: 14%;
-      padding-top: 0%;
-    }
-
-    .ffte {
-      top: 0px;
-    }
-  }
   @media (max-width: 980px) {
     .vid_222 {
       width: 86vw;
@@ -244,7 +232,8 @@ const IndexPage = () => {
   return (
     <>
       <SEO title="FFTE" />
-      <HomeStyles>
+      <Maintenece />
+      <HomeStyles style={{ display: "none" }}>
         {resizeWindow() && window.location.pathname === "/" ? (
           <div className="container">
             <div className="header_wrap">
