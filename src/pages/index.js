@@ -7,7 +7,7 @@ import santos_dumont from "../assets/fonts/santo___-webfont.woff";
 import santos_dumont2 from "../assets/fonts/santo___-webfont.woff2";
 
 // import Layout from "../components/layout";
-// import Maintenece from "../components/maintainance_message";
+import Maintenece from "../components/maintainance_message";
 
 import SEO from "../components/seo";
 import BGvideo from "../components/bgvideo";
@@ -64,7 +64,7 @@ const HomeStyles = styled.div`
 
   .ffte {
     position: absolute;
-    top: 1%x;
+    top: 1%;
     left: 3%;
     min-width: 107%;
     height: 100%;
@@ -229,8 +229,8 @@ const IndexPage = () => {
   return (
     <>
       <SEO title="FFTE" />
-      {/* <Maintenece /> */}
-      <HomeStyles>
+      <Maintenece />
+      <HomeStyles style={{ display: "none" }}>
         {resizeWindow() && window.location.pathname === "/" ? (
           <div className="container">
             <div className="header_wrap">

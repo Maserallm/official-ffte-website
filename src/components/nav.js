@@ -8,7 +8,7 @@ import font2 from "../assets/fonts/santo___-webfont.woff2";
 const NavStyles = styled.div`
   @font-face {
     font-family: "santos_dumont";
-    src: url(${font1}) format("woff"), url(${font2}) format("woff2");
+    src: url(${font1}) format("woff"), 
     font-weight: normal;
     font-style: normal;
   }
@@ -64,7 +64,7 @@ const NavStyles = styled.div`
 
 const Navbar = () => {
   return (
-    <NavStyles>
+    <NavStyles style={{ display: "none" }}>
       <div className="wrapper">
         <div className="menu_nav">
           <ul className="list">
