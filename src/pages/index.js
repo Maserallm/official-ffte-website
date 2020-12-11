@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
+import impact from "../assets/fonts/Impact.woff";
+import impact2 from "../assets/fonts/Impact.woff2";
+import santos_dumont from "../assets/fonts/santo___-webfont.woff";
+import santos_dumont2 from "../assets/fonts/santo___-webfont.woff2";
 
 // import Layout from "../components/layout";
 // import Maintenece from "../components/maintainance_message";
@@ -11,8 +15,15 @@ import BGvideo from "../components/bgvideo";
 const HomeStyles = styled.div`
   @font-face {
     font-family: "impact";
-    src: url("../../public/static/fonts/Impact.woff") format("woff"),
-      url("../../public/static/fonts/Impact.woff2") format("woff2");
+    src: url(${impact}) format("woff"), url(${impact2}) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "santos_dumont";
+    src: url(${santos_dumont}) format("woff"),
+      url(${santos_dumont2}) format("woff2");
     font-weight: normal;
     font-style: normal;
   }
