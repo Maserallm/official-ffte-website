@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ConnectStyles from "../styles/ConnectStyles";
 import ContactForm from "../components/contactform";
 import {

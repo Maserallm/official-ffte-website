@@ -31,7 +31,7 @@ module.exports = {
       options: {
         custom: {
           families: ["montserrat", "santos_dumont", "impact"],
-          urls: ["font.css"]
+          urls: ["/fonts/font.css"]
         }
       }
     }

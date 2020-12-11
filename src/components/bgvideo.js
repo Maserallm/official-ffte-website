@@ -25,10 +25,10 @@ const BGvideo = () => {
         playsInline
         muted
         // style={{
-        //   width: "81vw";
-        //   height: "88vh";
-        //   overflow: "hidden";
-        //   margin-left: "14%";
+        //   width: "81vw",
+        //   height: "88vh",
+        //   overflow: "hidden",
+        //   marginLeft: "14%"
         // }}
       >
         <source type="video/mp4" src={src} />

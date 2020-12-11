@@ -64,21 +64,21 @@ const NavStyles = styled.div`
 
 const Navbar = () => {
   return (
-    <NavStyles style={{ display: "none" }}>
+    <NavStyles>
       <div className="wrapper">
         <div className="menu_nav">
           <ul className="list">
-            <Link className="zoom" href="/">
+            <Link className="zoom" to="/">
               <li>
                 <h2>HOME</h2>
               </li>
             </Link>
-            <Link className="zoom" href="/artist">
+            <Link className="zoom" to="/artist">
               <li>
                 <h2>ARTIST</h2>
               </li>
             </Link>
-            <Link className="zoom" href="/shop">
+            <Link className="zoom" to="/shop">
               <li>
                 <h2>SHOP</h2>
               </li>
@@ -93,7 +93,7 @@ const Navbar = () => {
                 <h2>BLOG</h2>
               </li>
             </a>
-            <Link className="zoom" href="/connect">
+            <Link className="zoom" to="/connect">
               <li>
                 <h2>CONNECT</h2>
               </li>

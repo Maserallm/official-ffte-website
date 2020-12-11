@@ -34,9 +34,6 @@ const DateStyle = styled.div`
       margin: auto;
       height: 50vh;
     }
-    .header2 {
-      height: 15vh;
-    }
 
     .fwStyle {
       font-size: 75px;

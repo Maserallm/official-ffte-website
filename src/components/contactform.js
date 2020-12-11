@@ -42,10 +42,15 @@ function ContactForm() {
       <div className="contact-form">
         <form
           onSubmit={formSubmit}
-          action="/send"
+          name="contact"
+          // action="/send"
           method="post"
           style={{ maxWidth: "500px", margin: "auto" }}
+          netlify-honeypot="bot-field"
+          data-netlify="true"
         >
+          <input type="hidden" name="bot-field" />
+          + <input type="hidden" name="form-name" value="contact" />
           <div className="input-container">
             <i className="icon">
               <FaUser />
@@ -59,7 +64,6 @@ function ContactForm() {
               value={name}
             />
           </div>
-
           <div className="input-container">
             <i className="icon">
               <FaEnvelope />
@@ -73,7 +77,6 @@ function ContactForm() {
               value={email}
             />
           </div>
-
           <div className="input-container">
             <i className="icon">
               <FaInbox />
@@ -87,7 +90,6 @@ function ContactForm() {
               value={subject}
             />
           </div>
-
           <div className="input-container">
             <textarea
               onChange={onChange}
@@ -97,7 +99,6 @@ function ContactForm() {
               cols="68"
             ></textarea>
           </div>
-
           <button type="submit" className="btn">
             {sent === false ? "Send" : "Sending Message!"}
           </button>

@@ -2,13 +2,21 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
-import Layout from "../components/layout";
-import Maintenece from "../components/maintainance_message";
+// import Layout from "../components/layout";
+// import Maintenece from "../components/maintainance_message";
 
 import SEO from "../components/seo";
 import BGvideo from "../components/bgvideo";
 
 const HomeStyles = styled.div`
+  @font-face {
+    font-family: "impact";
+    src: url("../../public/static/fonts/Impact.woff") format("woff"),
+      url("../../public/static/fonts/Impact.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
   /* Body config */
   .container 
 /* CSS for SVG Overlay */
@@ -119,7 +127,7 @@ const HomeStyles = styled.div`
     margin-left: 14%;
   }
 
-  @media (max-width: 980px) {
+  @media (max-width: 1280px) {
     .vid_222 {
       width: 86vw;
       height: 74vh;
@@ -142,63 +150,41 @@ const HomeStyles = styled.div`
 
     .ffte {
       position: absolute;
-      top: 0px;
-      left: 4px;
-      min-width: 97%;
+      top: 1%;
+      left: 2%;
+      min-width: 100%;
       height: 75%;
       padding-top: 36%;
     }
   }
 
   @media (max-width: 830px) {
-    .vid_2 {
-      width: 72vw;
-      height: 74vh;
-      overflow: hidden;
-      margin-left: 20%;
-      padding-top: 0%;
-      position: relative;
-      top: -19px;
-    }
-
     .ffte {
       position: absolute;
-      top: 0px;
-      left: 4px;
-      min-width: 97%;
+      top: 0%;
+      left: 2%;
+      min-width: 100%;
       height: 75%;
       padding-top: 36%;
-    }
-  }
-
-  @media (max-width: 780px) {
-    .vid_2 {
-      width: 68vw;
-      height: 74vh;
-      overflow: hidden;
-      margin-left: 20%;
-      padding-top: 0%;
-      position: relative;
-      top: -110px;
     }
   }
 
   @media (max-width: 660px) {
     .vid_2 {
       width: 86vw;
-      top: -12px;
+      top: auto;
       margin-left: 10%;
     }
 
     .ffte {
-      top: 93px;
-      left: -75px;
-      min-width: 125%;
-      height: 75%;
+      top: 16%;
+      left: -10%;
+      min-width: 120%;
+      height: 72%;
       padding-top: 36%;
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 540px) {
     .cls_4 {
       font-size: 92.06px;
       font-family: santos_dumont, SANTOSDUMONT, SANTOS DUMONT;
@@ -211,15 +197,15 @@ const HomeStyles = styled.div`
 
     .vid_2 {
       width: 124vw;
-      height: 75vh;
+      height: 60vh;
       margin-left: 0%;
       position: initial;
     }
 
     .ffte {
-      top: 4px;
-      left: -113px;
-      min-width: 160%;
+      top: 1%;
+      left: -30%;
+      min-width: 162%;
       height: 100%;
       padding-top: 0%;
     }
@@ -232,8 +218,8 @@ const IndexPage = () => {
   return (
     <>
       <SEO title="FFTE" />
-      <Maintenece />
-      <HomeStyles style={{ display: "none" }}>
+      {/* <Maintenece /> */}
+      <HomeStyles>
         {resizeWindow() && window.location.pathname === "/" ? (
           <div className="container">
             <div className="header_wrap">
