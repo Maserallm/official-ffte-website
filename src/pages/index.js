@@ -64,9 +64,9 @@ const HomeStyles = styled.div`
 
   .ffte {
     position: absolute;
-    top: 39px;
-    left: 0;
-    min-width: 100%;
+    top: 1%x;
+    left: 3%;
+    min-width: 107%;
     height: 100%;
   }
 
@@ -138,7 +138,7 @@ const HomeStyles = styled.div`
     margin-left: 14%;
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1140px) {
     .vid_222 {
       width: 86vw;
       height: 74vh;
@@ -162,8 +162,8 @@ const HomeStyles = styled.div`
     .ffte {
       position: absolute;
       top: 1%;
-      left: 2%;
-      min-width: 100%;
+      left: 3%;
+      min-width: 99%;
       height: 75%;
       padding-top: 36%;
     }
