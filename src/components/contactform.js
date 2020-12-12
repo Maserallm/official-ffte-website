@@ -43,8 +43,8 @@ function ContactForm() {
         <form
           // onSubmit={formSubmit}
           name="contact"
-          action="/connect"
-          method="POST"
+          action="POST"
+          // method="POST"
           style={{ maxWidth: "500px", margin: "auto" }}
           netlify-honeypot="bot-field"
           data-netlify="true"
