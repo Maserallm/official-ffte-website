@@ -220,19 +220,22 @@ const HomeStyles = styled.div`
       font-family: impact;
     }
 
-    /*.vid_21 {
-      width: 70vw;
+    .full_screen_wrap {
+      overflow-x: hidden;
+    }
+
+    .vid_21 {
+      width: 100vw;
       height: 70vh;
-      
-    }*/
+    }
 
     .ffte {
-      top: -0.2%;
-      left: 0%;
-      min-width: 100%;
+      top: 0%;
+      left: -13%;
+      min-width: 126%;
       height: 100%;
       padding-top: 0%;
-      overfow: none:
+      overfow-x: hidden;
     }
   }
 `;
