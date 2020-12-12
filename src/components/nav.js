@@ -64,7 +64,8 @@ const NavStyles = styled.div`
 
 const Navbar = () => {
   return (
-    <NavStyles style={{ display: "none" }}>
+    // <NavStyles style={{ display: "none" }}>
+    <NavStyles>
       <div className="wrapper">
         <div className="menu_nav">
           <ul className="list">

@@ -1,4 +1,5 @@
 import React from "react";
+import src from "../images/ffte_website_video_02.mp4";
 const desktopVideo =
   "https://res.cloudinary.com/hcqtx6vth/video/upload/v1607219729/ffte_website_video_02_tdetv0.mp4";
 const tabletVideo =
@@ -14,21 +15,23 @@ const BGvideo = () => {
     return mobileVideo;
   };
 
-  const src = getVideoSrc(window.innerWidth);
+  // const src = getVideoSrc(window.innerWidth);
 
   return (
     <>
       <video
-        className="vid_2"
+        className="vid_21"
         autoPlay={true}
         loop={true}
         playsInline
         muted
         // style={{
-        //   width: "81vw",
-        //   height: "88vh",
-        //   overflow: "hidden",
-        //   marginLeft: "14%"
+        //   minWidth: "65%",
+        //   minHeight: "100%",
+        //   position: "relative",
+        //   top: "0px",
+        //   left: "16%",
+        //   overflow: "hidden"
         // }}
       >
         <source type="video/mp4" src={src} />
