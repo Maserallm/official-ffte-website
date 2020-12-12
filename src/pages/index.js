@@ -53,7 +53,6 @@ const HomeStyles = styled.div`
     overflow-y: hidden;
     height: auto;
     position: relative;
-    max-width: 1200px;
   }
 
   .transparent_text {
@@ -225,14 +224,14 @@ const HomeStyles = styled.div`
     }
 
     .vid_21 {
-      width: 100vw;
+      width: 115vw;
       height: 70vh;
     }
 
     .ffte {
-      top: 0%;
-      left: -13%;
-      min-width: 126%;
+      top: 2%;
+      left: -20%;
+      min-width: 140%;
       height: 100%;
       padding-top: 0%;
       overfow-x: hidden;
