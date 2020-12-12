@@ -6,12 +6,12 @@ import font1 from "../assets/fonts/santo___-webfont.woff";
 import font2 from "../assets/fonts/santo___-webfont.woff2";
 
 const NavStyles = styled.div`
-  @font-face {
+  /*@font-face {
     font-family: "santos_dumont";
     src: url(${font1}) format("woff"), url(${font2}) format("woff2");
     font-weight: normal;
     font-style: normal;
-  }
+  }*/
 
   h2 {
     font-family: santos_dumont, santos_dumont, santos_dumont;

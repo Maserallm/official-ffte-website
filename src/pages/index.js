@@ -13,7 +13,7 @@ import SEO from "../components/seo";
 import BGvideo from "../components/bgvideo";
 
 const HomeStyles = styled.div`
-  @font-face {
+  /*@font-face {
     font-family: "impact";
     src: url(${impact}) format("woff"), url(${impact2}) format("woff2");
     font-weight: normal;
@@ -26,7 +26,7 @@ const HomeStyles = styled.div`
       url(${santos_dumont2}) format("woff2");
     font-weight: normal;
     font-style: normal;
-  }
+  }*/
 
   /* Body config */
   .container {
@@ -193,20 +193,16 @@ const HomeStyles = styled.div`
     }*/
   }
 
-  @media (max-width: 660px) {
-    .vid_2 {
-      width: 86vw;
-      top: auto;
-      margin-left: 10%;
+  @media (max-width: 680px) {
+    .vid_21 {
+      width: 75vw;
     }
 
-    /*.ffte {
-      top: 7%;
-      left: 0%;
-      min-width: 100%;
-      height: 72%;
-      padding-top: 36%;
-    }*/
+    .ffte {
+      top: 0%;
+      left: -13%;
+      min-width: 126%;
+    
   }
   @media (max-width: 540px) {
     .cls_4 {
