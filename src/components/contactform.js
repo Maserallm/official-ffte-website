@@ -95,7 +95,7 @@ function ContactForm() {
               onChange={onChange}
               value={message}
               name="message"
-              rows="10"
+              rows="15"
               cols="68"
             ></textarea>
           </div>

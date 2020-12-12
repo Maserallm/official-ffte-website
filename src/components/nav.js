@@ -8,9 +8,13 @@ import font2 from "../assets/fonts/santo___-webfont.woff2";
 const NavStyles = styled.div`
   @font-face {
     font-family: "santos_dumont";
-    src: url(${font1}) format("woff"), 
+    src: url(${font1}) format("woff"), url(${font2}) format("woff2");
     font-weight: normal;
     font-style: normal;
+  }
+
+  h2 {
+    font-family: santos_dumont, santos_dumont, santos_dumont;
   }
 
   .wrapper {
@@ -27,7 +31,7 @@ const NavStyles = styled.div`
   .menu_nav li {
     margin-left: 50px;
     margin-right: 50px;
-    font-family: santos_dumont;
+    font-family: santos_dumont, santos_dumont, santos_dumont;
   }
 
   .zoom {
