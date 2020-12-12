@@ -62,17 +62,25 @@ const HomeStyles = styled.div`
     /* stroke-opacity: 0.5; */
   }
 
-  video {
+  /*video {
     padding-top: 5%;
     height: 80vh;
     width: 70vw;
-  }
+  }*/
 
-  .ffte {
+  /*.ffte {
     position: absolute;
     top: 1%;
     left: 3%;
     min-width: 107%;
+    height: 100%;
+  }*/
+
+  .ffte {
+    position: absolute;
+    top: -65px;
+    left: 0;
+    min-width: 100%;
     height: 100%;
   }
 
@@ -137,11 +145,14 @@ const HomeStyles = styled.div`
     transform: scale(1.5);
   }
 
-  .vid_2 {
+  .vid_21 {
     width: 79vw;
     height: 88vh;
     overflow: hidden;
-    margin-left: 14%;
+    margin-left: 0%;
+    padding-top: 0%;
+    height: 81vh;
+    width: 70vw;
   }
 
   @media (max-width: 1140px) {
@@ -165,22 +176,22 @@ const HomeStyles = styled.div`
       top: -99px;
     }
 
-    .ffte {
+    /*.ffte {
       position: absolute;
       top: -6%;
       left: 0%;
       min-width: 99%;
       height: 100%;
       
-    }
+    }*/
   }
 
   @media (max-width: 740px) {
-    .ffte {
+    /*.ffte {
       top: -7%;
       min-width: 100%;
       padding-top: 36%;
-    }
+    }*/
   }
 
   @media (max-width: 660px) {
@@ -190,13 +201,13 @@ const HomeStyles = styled.div`
       margin-left: 10%;
     }
 
-    .ffte {
+    /*.ffte {
       top: 7%;
       left: 0%;
       min-width: 100%;
       height: 72%;
       padding-top: 36%;
-    }
+    }*/
   }
   @media (max-width: 540px) {
     .cls_4 {
@@ -209,14 +220,14 @@ const HomeStyles = styled.div`
       font-family: impact;
     }
 
-    .vid_21 {
+    /*.vid_21 {
       width: 70vw;
       height: 70vh;
       
-    }
+    }*/
 
     .ffte {
-      top: -6%;
+      top: -0.2%;
       left: 0%;
       min-width: 100%;
       height: 100%;
