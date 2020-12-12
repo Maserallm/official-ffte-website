@@ -43,14 +43,14 @@ function ContactForm() {
         <form
           // onSubmit={formSubmit}
           name="contact"
-          action="POST"
-          // method="POST"
+          // action="POST"
+          method="POST"
           style={{ maxWidth: "500px", margin: "auto" }}
           netlify-honeypot="bot-field"
           data-netlify="true"
         >
-          {/* <input type="hidden" name="bot-field" />
-          + <input type="hidden" name="form-name" value="contact" /> */}
+          {/* <input type="hidden" name="bot-field" /> */}
+          + <input type="hidden" name="form-name" value="contact" />
           <div className="input-container">
             <i className="icon">
               <FaUser />
