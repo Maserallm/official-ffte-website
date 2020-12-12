@@ -41,27 +41,27 @@ function ContactForm() {
       {/* <div className="social-media"></div> */}
       <div className="contact-form">
         <form
-          onSubmit={formSubmit}
+          // onSubmit={formSubmit}
           name="contact"
-          // action="/send"
-          method="post"
+          action="/connect"
+          method="POST"
           style={{ maxWidth: "500px", margin: "auto" }}
           netlify-honeypot="bot-field"
           data-netlify="true"
         >
-          <input type="hidden" name="bot-field" />
-          + <input type="hidden" name="form-name" value="contact" />
+          {/* <input type="hidden" name="bot-field" />
+          + <input type="hidden" name="form-name" value="contact" /> */}
           <div className="input-container">
             <i className="icon">
               <FaUser />
             </i>
             <input
-              onChange={onChange}
+              // onChange={onChange}
               className="input-field"
               type="text"
               placeholder="Name"
               name="name"
-              value={name}
+              // value={name}
             />
           </div>
           <div className="input-container">
@@ -69,12 +69,12 @@ function ContactForm() {
               <FaEnvelope />
             </i>
             <input
-              onChange={onChange}
+              // onChange={onChange}
               className="input-field"
               type="text"
               placeholder="Email"
               name="email"
-              value={email}
+              // value={email}
             />
           </div>
           <div className="input-container">
@@ -82,18 +82,18 @@ function ContactForm() {
               <FaInbox />
             </i>
             <input
-              onChange={onChange}
+              // onChange={onChange}
               className="input-field"
               type="subject"
               placeholder="Subject"
               name="subject"
-              value={subject}
+              // value={subject}
             />
           </div>
           <div className="input-container">
             <textarea
-              onChange={onChange}
-              value={message}
+              // onChange={onChange}
+              // value={message}
               name="message"
               rows="15"
               cols="68"
