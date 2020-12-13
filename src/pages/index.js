@@ -220,17 +220,17 @@ const HomeStyles = styled.div`
     }
 
     .vid_21 {
-      width: 115vw;
-      height: 70vh;
+      width: 100vw;
+      height: 65vh;
     }
 
     .ffte {
-      top: 2%;
-      left: -20%;
-      min-width: 140%;
+      top: 3%;
+      left: -24%;
+      min-width: 145%;
       height: 100%;
       padding-top: 0%;
-      overfow-x: hidden;
+      overflow-x: hidden;
     }
   }
 `;
