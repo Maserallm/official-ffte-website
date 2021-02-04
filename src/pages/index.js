@@ -148,7 +148,8 @@ const HomeStyles = styled.div`
     width: 79vw;
     height: 88vh;
     overflow: hidden;
-    margin-left: 0%;
+    // for ffte these days red video
+    margin-left: 6%;
     padding-top: 0%;
     height: 80vh;
     width: 70vw;
