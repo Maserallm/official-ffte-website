@@ -1,5 +1,6 @@
 import React from "react";
-import src from "../images/ffte_website_video_02.mp4";
+import src from "../images/Eazy_these_days.mp4";
+
 // const desktopVideo =
 //   "https://res.cloudinary.com/hcqtx6vth/video/upload/v1607219729/ffte_website_video_02_tdetv0.mp4";
 // const tabletVideo =

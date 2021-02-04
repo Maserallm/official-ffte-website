@@ -13,27 +13,27 @@ function ContactForm() {
 
   const { name, email, subject, message, sent } = contact;
 
-  const onChange = e => {
-    setContact({ ...contact, [e.target.name]: e.target.value });
-  };
+  // const onChange = e => {
+  //   setContact({ ...contact, [e.target.name]: e.target.value });
+  // };
 
-  const formSubmit = async e => {
-    e.preventDefault();
-    // eslint-disable-next-line
-    const form = await axios.post("/api/form", {
-      name,
-      email,
-      subject,
-      message
-    });
+  // const formSubmit = async e => {
+  //   e.preventDefault();
+  //   // eslint-disable-next-line
+  //   const form = await axios.post("/api/form", {
+  //     name,
+  //     email,
+  //     subject,
+  //     message
+  //   });
 
-    setContact({ sent: true });
-    resetForm();
-  };
+  //   setContact({ sent: true });
+  //   resetForm();
+  // };
 
-  const resetForm = () => {
-    setContact({ sent: false, name: "", email: "", subject: "", message: "" });
-  };
+  // const resetForm = () => {
+  //   setContact({ sent: false, name: "", email: "", subject: "", message: "" });
+  // };
 
   return (
     <div className="contact-ffte">
