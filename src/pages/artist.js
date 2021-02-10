@@ -282,6 +282,61 @@ const Artist = () => {
               <div className="music_content">
                 <div className="music_content_item">
                   <a
+                    href="https://youtu.be/PyWJ61rRDzA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1612934248/FFTE%20Website/eazy_pinky_ring___these_days_tkeeew.jpg"
+                      alt="These Days / Pinky Rings"
+                    />
+                  </a>
+                  <ul className="music_links">
+                    <li>
+                      <a
+                        href="https://music.apple.com/us/album/these-days-single/1551555471"
+                        target="_blank"
+                        rel="noopener noreferrer" // eslint-disable-next-line
+                      >
+                        {/* eslint-disable-next-line*/}
+                        <p className="music_links_fa">
+                          <FaApple />
+                          <i className="fab fa-apple"></i>
+                        </p>
+                        {/* <Apple /> */}
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://open.spotify.com/album/5jBex2WD36ryvVN8Lu8rU9?si=vbJlXhtMQ9miYefVWHXYxQ"
+                        target="_blank"
+                        rel="noopener noreferrer" // eslint-disable-next-line
+                      >
+                        {/* eslint-disable-next-line*/}
+                        <p className="music_links_fa">
+                          <FaSpotify />
+                          <i className="fab fa-spotify"></i>
+                        </p>
+                        {/* <Spotify /> */}
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtu.be/PyWJ61rRDzA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <p className="music_links_fa">
+                          <FaYoutube />
+                          <i className="fab fa-youtube"></i>
+                        </p>
+                        {/* <Youtube /> */}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="music_content_item">
+                  <a
                     href="https://www.youtube.com/playlist?list=PL30TohooSnj367AjiemnRgSXFNT1NhAHS"
                     target="_blank"
                     rel="noopener noreferrer"
