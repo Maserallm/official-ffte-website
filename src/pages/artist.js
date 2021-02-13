@@ -243,7 +243,8 @@ const Artist = () => {
             <div className="header_artist_info">
               <div>
                 <img
-                  src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1594993296/DA463AAE-7D40-40F8-9EDB-8F8B5D2C6EA4_d55a3a.jpg"
+                  src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613185467/Eazy_1_psd_ahpvp6.jpg"
+                  // src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1594993296/DA463AAE-7D40-40F8-9EDB-8F8B5D2C6EA4_d55a3a.jpg"
                   alt="EAZY"
                   className="eazy"
                 />
