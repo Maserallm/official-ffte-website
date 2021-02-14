@@ -47,7 +47,8 @@ const Connect = () => {
               <div className="team-members ">
                 <figure>
                   <img
-                    src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1595211033/eazybiocloudinary_j7zlfk.png"
+                    src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613258232/FFTE%20Website/Eazy_2_2_gzqs3k.jpg"
+                    // src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1595211033/eazybiocloudinary_j7zlfk.png"
                     alt="EAZY"
                   />
                   <figcaption>
@@ -97,7 +98,8 @@ const Connect = () => {
                   <>
                     <figure>
                       <img
-                        src="https://woo-videos.s3.us-east-2.amazonaws.com/FFTE+ORIGINALS+B5+01.png"
+                        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613261986/FFTE%20Website/B5_feb_copy_aakfia.png"
+                        // src="https://woo-videos.s3.us-east-2.amazonaws.com/FFTE+ORIGINALS+B5+01.png"
                         alt="B5"
                         width=""
                         height=""
@@ -139,7 +141,7 @@ const Connect = () => {
                     />
                     <figure>
                       <img
-                        src="https://woo-videos.s3.us-east-2.amazonaws.com/FFTE+ORIGINALS+B5+01.png"
+                        src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613261986/FFTE%20Website/B5_feb_copy_aakfia.png"
                         alt="B5"
                         className="b5_statement"
                         width="100%"
