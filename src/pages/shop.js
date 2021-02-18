@@ -12,7 +12,7 @@ const ShopStyles = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    height: 25vh;
+    // height: 25vh;
   }
 
   .fwStyle {
@@ -23,17 +23,34 @@ const ShopStyles = styled.div`
     padding: 10px;
   }
 
+  .shop_content {
+    margin-top: 2rem;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 10%;
+  }
+
   @media (max-width: 703px) {
     .container_ {
       margin: auto;
-      height: 50vh;
+      height: 80vh;
     }
     .header2 {
-      height: 15vh;
+      height: 0vh;
     }
 
     .fwStyle {
       font-size: 30px;
+    }
+
+    .shop_content {
+      margin-top: 2rem;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      margin: 20%;
+      justify-content: center;
     }
   }
 `;
@@ -43,8 +60,17 @@ const Shop = () => {
     <ShopStyles>
       <div className="container_">
         <h1 className="header1">OFFICIAL FFTE SHOP</h1>
-        <p className="header2">The Latest Drops From the Ends.</p>
-        <h3 className="fwStyle">WINTER 2021</h3>
+        <p className="header2">02.25.2021</p>
+        <div className="shop_content">
+          <img
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613622036/FFTE%20Website/Woo_1_ijiiuq.jpg"
+            alt="FFTE Windbreaker"
+          />
+          <img
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613622035/FFTE%20Website/woo_3_t6oahy.jpg"
+            alt="FFTE Tee"
+          />
+        </div>
       </div>
     </ShopStyles>
   );
