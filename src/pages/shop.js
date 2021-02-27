@@ -60,14 +60,26 @@ const Shop = () => {
     <ShopStyles>
       <div className="container_">
         <h1 className="header1">OFFICIAL FFTE SHOP</h1>
-        <p className="header2">02.25.2021</p>
+        <p className="header2">03.05.2021</p>
         <div className="shop_content">
           <img
-            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613622036/FFTE%20Website/Woo_1_ijiiuq.jpg"
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1614394399/BMB08526_copy_takokp.jpg"
             alt="FFTE Windbreaker"
           />
-          <img
+          {/* <img
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1614394002/BMB08566_2_ebz2pp.jpg"
+            alt="FFTE Windbreaker"
+          /> */}
+          {/* <img
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613622036/FFTE%20Website/Woo_1_ijiiuq.jpg"
+            alt="FFTE Windbreaker"
+          /> */}
+          {/* <img
             src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1613622035/FFTE%20Website/woo_3_t6oahy.jpg"
+            alt="FFTE Tee"
+          /> */}
+          <img
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1614394002/BMB08566_2_ebz2pp.jpg"
             alt="FFTE Tee"
           />
         </div>

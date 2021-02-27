@@ -32045,17 +32045,6 @@ module.exports = __webpack_require__.p + "static/Impact-9d914f7ae9ffcfa674a19def
 
 /***/ }),
 
-/***/ "./src/assets/fonts/Impact.woff2":
-/*!***************************************!*\
-  !*** ./src/assets/fonts/Impact.woff2 ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/Impact-f57997d44cc3e34c27259736e4ace92c.woff2";
-
-/***/ }),
-
 /***/ "./src/assets/fonts/Montserrat-Regular.ttf":
 /*!*************************************************!*\
   !*** ./src/assets/fonts/Montserrat-Regular.ttf ***!
@@ -32155,7 +32144,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "nav__NavStyles"
-})(["h2{font-family:santos_dumont,santos_dumont,santos_dumont;}.wrapper{display:block;}.menu_nav{display:grid;justify-content:center;overflow:auto;white-space:nowrap;}.menu_nav li{margin-left:50px;margin-right:50px;font-family:santos_dumont,santos_dumont,santos_dumont;}.zoom{transition:transform 0.2s;}.zoom:hover{-ms-transform:scale(1.5);-webkit-transform:scale(1.5);transform:scale(1.5);}.list{display:flex;list-style:none;}@media (max-width:703px){.menu_nav{display:grid;justify-content:start;overflow:auto;white-space:nowrap;width:91%;margin:2rem 0;}.list{margin-left:0;padding-left:0;}}"]);
+})(["h2{font-family:santos_dumont,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Open Sans\",\"Helvetica Neue\",sans-serif;}.wrapper{display:block;}.menu_nav{display:grid;justify-content:center;overflow:auto;white-space:nowrap;}.menu_nav li{margin-left:50px;margin-right:50px;font-family:santos_dumont,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Open Sans\",\"Helvetica Neue\",sans-serif;}.zoom{transition:transform 0.2s;}.zoom:hover{-ms-transform:scale(1.5);-webkit-transform:scale(1.5);transform:scale(1.5);}.list{display:flex;list-style:none;}@media (max-width:703px){.menu_nav{display:grid;justify-content:start;overflow:auto;white-space:nowrap;width:91%;margin:2rem 0;}.list{margin-left:0;padding-left:0;}}"]);
 
 var Navbar = function Navbar() {
   return (
@@ -32228,23 +32217,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/fonts/santo___-webfont.woff */ "./src/assets/fonts/santo___-webfont.woff");
 /* harmony import */ var _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _assets_fonts_santo_webfont_woff2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/fonts/santo___-webfont.woff2 */ "./src/assets/fonts/santo___-webfont.woff2");
-/* harmony import */ var _assets_fonts_santo_webfont_woff2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_santo_webfont_woff2__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/fonts/Impact.woff */ "./src/assets/fonts/Impact.woff");
-/* harmony import */ var _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _assets_fonts_Impact_woff2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/fonts/Impact.woff2 */ "./src/assets/fonts/Impact.woff2");
-/* harmony import */ var _assets_fonts_Impact_woff2__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_Impact_woff2__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/fonts/Impact.woff */ "./src/assets/fonts/Impact.woff");
+/* harmony import */ var _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_4__);
 
 
 var _templateObject;
 
 
 
+ // import font2 from "../assets/fonts/santo___-webfont.woff2";
 
+/*, url(${font2}) format("woff2")*/
 
+ // import impact2 from "../assets/fonts/Impact.woff2";
 
+/*, url(${impact2}) format("woff2")*/
 
-var Typography = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n@font-face {\n    font-family: \"montserrat\";\n    src: url(", ") format(\"ttf\");\n}\n\n@font-face {\n  font-family: \"santos_dumont\";\n  src: url(", ") format(\"woff\"), url(", ") format(\"woff2\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"impact\";\n  src: url(", ") format(\"woff\"), url(", ") format(\"woff2\");\n  font-weight: normal;\n  font-style: normal;\n}\n\nhtml {\n    box-sizing: border-box;\n    color: black;\n    font-family: \"montserrat\", sans-serif;\n  }\n\n"])), _assets_fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_2___default.a, _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3___default.a, _assets_fonts_santo_webfont_woff2__WEBPACK_IMPORTED_MODULE_4___default.a, _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_5___default.a, _assets_fonts_Impact_woff2__WEBPACK_IMPORTED_MODULE_6___default.a);
+var Typography = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n@font-face {\n    font-family: \"montserrat\";\n    src: url(", ") format(\"ttf\");\n}\n\n@font-face {\n  font-family: \"santos_dumont\";\n  src: url(", ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"impact\";\n  src: url(", ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n\nhtml {\n    box-sizing: border-box;\n    color: black;\n    font-family: \"montserrat\", sans-serif;\n  }\n\n  .cls_1 {\n    font-size: 662.98px;\n    font-family: impact, -apple-system, BlinkMacSystemFont;\n  }\n\n  .cls_4 {\n    font-size: 92.06px;\n    font-family: santos_dumont, -apple-system, BlinkMacSystemFont;\n  }\n\n"])), _assets_fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_2___default.a, _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3___default.a, _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_4___default.a);
 /* harmony default export */ __webpack_exports__["default"] = (Typography);
 
 /***/ }),

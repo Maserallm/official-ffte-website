@@ -14,7 +14,9 @@ const NavStyles = styled.div`
   }*/
 
   h2 {
-    font-family: santos_dumont, santos_dumont, santos_dumont;
+    font-family: santos_dumont, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
   }
 
   .wrapper {
@@ -31,7 +33,9 @@ const NavStyles = styled.div`
   .menu_nav li {
     margin-left: 50px;
     margin-right: 50px;
-    font-family: santos_dumont, santos_dumont, santos_dumont;
+    font-family: santos_dumont, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
   }
 
   .zoom {

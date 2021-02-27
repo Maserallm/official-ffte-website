@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import impact from "../assets/fonts/Impact.woff";
-import impact2 from "../assets/fonts/Impact.woff2";
-import santos_dumont from "../assets/fonts/santo___-webfont.woff";
-import santos_dumont2 from "../assets/fonts/santo___-webfont.woff2";
+// import impact from "../assets/fonts/Impact.woff";
+// import impact2 from "../assets/fonts/Impact.woff2";
+// import santos_dumont from "../assets/fonts/santo___-webfont.woff";
+// import santos_dumont2 from "../assets/fonts/santo___-webfont.woff2";
 
 // import Layout from "../components/layout";
 // import Maintenece from "../components/maintainance_message";
@@ -12,8 +12,7 @@ import santos_dumont2 from "../assets/fonts/santo___-webfont.woff2";
 import SEO from "../components/seo";
 import BGvideo from "../components/bgvideo";
 
-const HomeStyles = styled.div`
-  /*@font-face {
+/*@font-face {
     font-family: "impact";
     src: url(${impact}) format("woff"), url(${impact2}) format("woff2");
     font-weight: normal;
@@ -27,6 +26,9 @@ const HomeStyles = styled.div`
     font-weight: normal;
     font-style: normal;
   }*/
+
+const HomeStyles = styled.div`
+ 
 
   /* Body config */
   .container {
@@ -91,10 +93,13 @@ const HomeStyles = styled.div`
     width: 100%;
   }
 
+  /*
   .cls_1 {
     font-size: 662.98px;
-    font-family: impact;
+    font-family: impact, impact, -apple-system, BlinkMacSystemFont;
   }
+  */
+ 
   .cls_2 {
     letter-spacing: 0.03em;
   }
@@ -102,10 +107,12 @@ const HomeStyles = styled.div`
     letter-spacing: 0em;
   }
 
+  /*
   .cls_4 {
     font-size: 92.06px;
-    font-family: santos_dumont, SANTOSDUMONT, SANTOS DUMONT;
+    font-family: santos_dumont, santos_dumont, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+  */
   .cls_5 {
     letter-spacing: 0.03em;
   }
@@ -206,15 +213,17 @@ const HomeStyles = styled.div`
     
   }
   @media (max-width: 540px) {
+    /*
     .cls_4 {
       font-size: 92.06px;
-      font-family: santos_dumont, SANTOSDUMONT, SANTOS DUMONT;
+      font-family: santos_dumont, santos_dumont, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     .cls_1 {
       font-size: 662.98px;
-      font-family: impact;
+      font-family: impact, impact, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+    */
 
     .full_screen_wrap {
       overflow-x: hidden;
