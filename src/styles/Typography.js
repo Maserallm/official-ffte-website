@@ -42,12 +42,12 @@ html {
 
   .cls_1 {
     font-size: 662.98px;
-    font-family: impact !important;
+    font-family: impact ;
   }
 
   .cls_4 {
     font-size: 92.06px;
-    font-family: santos_dumont !important;
+    font-family: santos_dumont ;
   }
 
 `;
