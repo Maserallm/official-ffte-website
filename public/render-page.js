@@ -32231,9 +32231,13 @@ var _templateObject;
 
  // import impact2 from "../assets/fonts/Impact.woff2";
 
-/*, url(${impact2}) format("woff2")*/
+/*, url(${impact2}) format("woff2")
 
-var Typography = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n@font-face {\n    font-family: \"montserrat\";\n    src: url(", ") format(\"ttf\");\n}\n\n@font-face {\n  font-family: \"santos_dumont\";\n  src: url(", ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"impact\";\n  src: url(", ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n\nhtml {\n    box-sizing: border-box;\n    color: black;\n    font-family: \"montserrat\", sans-serif;\n  }\n\n  .cls_1 {\n    font-size: 662.98px;\n    font-family: impact, -apple-system, BlinkMacSystemFont;\n  }\n\n  .cls_4 {\n    font-size: 92.06px;\n    font-family: santos_dumont, -apple-system, BlinkMacSystemFont;\n  }\n\n"])), _assets_fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_2___default.a, _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3___default.a, _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_4___default.a);
+-apple-system, BlinkMacSystemFont
+-apple-system, BlinkMacSystemFont
+*/
+
+var Typography = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n@font-face {\n    font-family: \"montserrat\";\n    src: url(", ") format(\"ttf\");\n}\n\n@font-face {\n  font-family: \"santos_dumont\";\n  src: url(", ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"impact\";\n  src: url(", ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n\nhtml {\n    box-sizing: border-box;\n    color: black;\n    font-family: \"montserrat\", sans-serif;\n  }\n\n  .cls_1 {\n    font-size: 662.98px;\n    font-family: impact ;\n  }\n\n  .cls_4 {\n    font-size: 92.06px;\n    font-family: santos_dumont ;\n  }\n\n"])), _assets_fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_2___default.a, _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3___default.a, _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_4___default.a);
 /* harmony default export */ __webpack_exports__["default"] = (Typography);
 
 /***/ }),

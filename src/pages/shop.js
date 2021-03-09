@@ -60,7 +60,7 @@ const Shop = () => {
     <ShopStyles>
       <div className="container_">
         <h1 className="header1">OFFICIAL FFTE SHOP</h1>
-        <p className="header2">03.05.2021</p>
+        {/* <p className="header2">03.05.2021</p> */}
         <div className="shop_content">
           <img
             src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1614394399/BMB08526_copy_takokp.jpg"
