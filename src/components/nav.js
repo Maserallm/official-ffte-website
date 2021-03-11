@@ -87,7 +87,7 @@ const Navbar = () => {
                 <h2>ARTIST</h2>
               </li>
             </Link>
-            <Link className="zoom" to="/shop">
+            <Link className="zoom" to="https://shop.farfromtheeast.com">
               <li>
                 <h2>SHOP</h2>
               </li>

@@ -286,7 +286,10 @@ const IndexPage = () => {
                         <Link className="artist" to="/artist">
                           <tspan>F</tspan>
                         </Link>
-                        <Link className="shop hvr-grow" to="/shop">
+                        <Link
+                          className="shop hvr-grow"
+                          to="https://shop.farfromtheeast.com/"
+                        >
                           <tspan className="cls_2" x="263.83" y="0">
                             F
                           </tspan>
@@ -324,7 +327,10 @@ const IndexPage = () => {
                           </tspan>
                         </text>
                       </Link>
-                      <Link className="shop hvr-grow " to="/shop">
+                      <Link
+                        className="shop hvr-grow "
+                        to="https://shop.farfromtheeast.com/"
+                      >
                         <text
                           className="cls_4"
                           transform="translate(717.38 705.91) scale(0.96 1)"
