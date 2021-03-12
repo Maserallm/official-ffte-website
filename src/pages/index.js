@@ -53,6 +53,7 @@ const HomeStyles = styled.div`
 
   .full_screen_wrap {
     overflow-y: hidden;
+    overflow-x: hidden;
     height: auto;
     position: relative;
   }
