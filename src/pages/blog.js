@@ -31,6 +31,13 @@ const BlogStyles = styled.div`
     margin: 0%;
   }
 
+  .shop_content img {
+    position: relative;
+    width: 75%;
+    top: -2%;
+    left: 13%;
+  }
+
   @media (max-width: 703px) {
     .container_ {
       margin: auto;
@@ -52,6 +59,31 @@ const BlogStyles = styled.div`
       margin: 0%;
       justify-content: center;
     }
+
+    .shop_content img {
+      position: relative;
+      width: 90%;
+      top: 6%;
+      left: 5%;
+    }
+  }
+
+  @media (max-width: 503px) {
+    .shop_content img {
+      position: relative;
+      width: 90%;
+      top: 6%;
+      left: 5%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .shop_content img {
+      position: relative;
+      width: 100%;
+      top: 40%;
+      left: -2%;
+    }
   }
 `;
 
@@ -62,8 +94,12 @@ const Blog = () => {
         {/* <h1 className="header1">OFFICIAL FFTE SHOP</h1> */}
         {/* <p className="header2">03.05.2021</p> */}
         <div className="shop_content">
-          <img
+          {/* <img
             src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1618281422/FFTE%20Website/New_FFTE_LOGO_zhu6yn.jpg"
+            alt="FFTE Blog Logo"
+          /> */}
+          <img
+            src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1618287430/FFTE%20Website/NEW_FFTE_LOGO_RESIZED_bncymf.jpg"
             alt="FFTE Blog Logo"
           />
         </div>
