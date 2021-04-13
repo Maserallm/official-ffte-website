@@ -1,4 +1,4 @@
-require("dotenv").config();
+// require("dotenv").config();
 // import dotenv from "dotenv";
 
 // dotenv.config({ path: ".env" });
@@ -30,17 +30,17 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/apple-touch-icon.png` // This path is relative to the root of the site.
       }
-    },
-    {
-      resolve: `gatsby-source-cloudinary`,
-      options: {
-        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-        apiKey: process.env.CLOUDINARY_API_KEY,
-        apiSecret: process.env.CLOUDINARY_API_SECRET,
-        resourceType: `image`,
-        tags: true
-      }
     }
+    // {
+    //   resolve: `gatsby-source-cloudinary`,
+    //   options: {
+    //     cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+    //     apiKey: process.env.CLOUDINARY_API_KEY,
+    //     apiSecret: process.env.CLOUDINARY_API_SECRET,
+    //     resourceType: `image`,
+    //     tags: true
+    //   }
+    // }
     // {
     //   resolve: "gatsby-plugin-web-font-loader",
     //   options: {
