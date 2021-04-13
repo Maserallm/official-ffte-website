@@ -297,7 +297,8 @@ const IndexPage = () => {
                         </Link>
                         {/* </text>
                 </g> */}
-                        <a
+                        {/* Code for the link to FFTE BLOG SITE */}
+                        {/* <a
                           href="http://ffteblog.com/"
                           className="blog hvr-grow"
                           target="_blank"
@@ -306,7 +307,12 @@ const IndexPage = () => {
                           <tspan className="cls_3" x="548.24" y="0">
                             T
                           </tspan>
-                        </a>
+                        </a> */}
+                        <Link className="contact hvr-grow" to="/blog">
+                          <tspan className="cls_3" x="548.24" y="0">
+                            T
+                          </tspan>
+                        </Link>
                         <Link className="contact hvr-grow" to="/connect">
                           <tspan className="cls_3" x="850.24" y="0">
                             E
@@ -349,7 +355,8 @@ const IndexPage = () => {
                           </tspan>
                         </text>
                       </Link>
-                      <a
+                      {/* Code for the link to FFTE BLOG SITE */}
+                      {/* <a
                         href="http://ffteblog.com/"
                         className="blog hvr-grow"
                         target="_blank"
@@ -368,7 +375,22 @@ const IndexPage = () => {
                             e
                           </tspan>
                         </text>
-                      </a>
+                      </a> */}
+                      <Link className="blog hvr-grow">
+                        <text
+                          className="cls_4"
+                          transform="translate(1023.71 705.91) scale(0.96 1)"
+                          id="the"
+                        >
+                          <tspan className="cls_10">T</tspan>
+                          <tspan className="cls_11" x="50.28" y="0">
+                            h
+                          </tspan>
+                          <tspan x="73.8" y="0">
+                            e
+                          </tspan>
+                        </text>
+                      </Link>
                       <Link className="contact hvr-grow" to="/connect">
                         <text
                           className="cls_4"

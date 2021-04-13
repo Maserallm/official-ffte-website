@@ -92,7 +92,8 @@ const Navbar = () => {
                 <h2>SHOP</h2>
               </li>
             </Link>
-            <a
+            {/* Code that links nav to FFTE Blog Site */}
+            {/* <a
               className="zoom"
               href="http://ffteblog.com"
               target="_blank"
@@ -101,7 +102,12 @@ const Navbar = () => {
               <li>
                 <h2>BLOG</h2>
               </li>
-            </a>
+            </a> */}
+            <Link className="zoom" to="/blog">
+              <li>
+                <h2>BLOG</h2>
+              </li>
+            </Link>
             <Link className="zoom" to="/connect">
               <li>
                 <h2>CONNECT</h2>

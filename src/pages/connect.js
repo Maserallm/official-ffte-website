@@ -8,6 +8,7 @@ import {
   FaEnvelope,
   FaStore
 } from "react-icons/fa";
+// import Staff from "../components/staff"
 
 const eazystate =
   "https://res.cloudinary.com/dtxylaqlc/image/upload/v1605330751/eazystatement0528_l0mmyr.png";
