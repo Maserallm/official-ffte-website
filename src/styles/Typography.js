@@ -13,6 +13,12 @@ import impact from "../assets/fonts/Impact.woff";
 -apple-system, BlinkMacSystemFont
 */
 
+const santos_dumont =
+  "https://res.cloudinary.com/dtxylaqlc/raw/upload/v1621867347/FFTE%20Website/SANTO____e9htic.otf";
+
+const impact_font =
+  "https://res.cloudinary.com/dtxylaqlc/raw/upload/v1621866668/FFTE%20Website/impact_tsbvtk.ttf";
+
 const Typography = createGlobalStyle`
 
 @font-face {
@@ -22,14 +28,16 @@ const Typography = createGlobalStyle`
 
 @font-face {
   font-family: "santos_dumont";
-  src: url(${font1}) format("woff");
+  // src: url(${font1}) format("woff");
+  src: url(${santos_dumont});
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "impact";
-  src: url(${impact}) format("woff");
+  // src: url(${impact}) format("woff");
+  src: url(${impact_font});
   font-weight: normal;
   font-style: normal;
 }
@@ -42,12 +50,12 @@ html {
 
   .cls_1 {
     font-size: 662.98px;
-    font-family: impact ;
+    font-family: impact; 
   }
 
   .cls_4 {
     font-size: 92.06px;
-    font-family: santos_dumont ;
+    font-family: santos_dumont; 
   }
 
 `;

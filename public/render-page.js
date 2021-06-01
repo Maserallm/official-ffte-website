@@ -32067,17 +32067,6 @@ module.exports = __webpack_require__.p + "static/santo___-webfont-d22d8c2b164e0f
 
 /***/ }),
 
-/***/ "./src/assets/fonts/santo___-webfont.woff2":
-/*!*************************************************!*\
-  !*** ./src/assets/fonts/santo___-webfont.woff2 ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/santo___-webfont-5948ed29f3495f13fd6429ab4f38f915.woff2";
-
-/***/ }),
-
 /***/ "./src/components/layout.js":
 /*!**********************************!*\
   !*** ./src/components/layout.js ***!
@@ -32133,14 +32122,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/fonts/santo___-webfont.woff */ "./src/assets/fonts/santo___-webfont.woff");
-/* harmony import */ var _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _assets_fonts_santo_webfont_woff2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/fonts/santo___-webfont.woff2 */ "./src/assets/fonts/santo___-webfont.woff2");
-/* harmony import */ var _assets_fonts_santo_webfont_woff2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_santo_webfont_woff2__WEBPACK_IMPORTED_MODULE_4__);
 
 
-
-
+ // import font1 from "../assets/fonts/santo___-webfont.woff";
+// import font2 from "../assets/fonts/santo___-webfont.woff2";
+//   src: url(${font1}) format("woff"), url(${font2}) format("woff2");
 
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "nav__NavStyles"
@@ -32235,7 +32221,9 @@ var _templateObject;
 -apple-system, BlinkMacSystemFont
 */
 
-var Typography = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n@font-face {\n    font-family: \"montserrat\";\n    src: url(", ") format(\"ttf\");\n}\n\n@font-face {\n  font-family: \"santos_dumont\";\n  src: url(", ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"impact\";\n  src: url(", ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal;\n}\n\nhtml {\n    box-sizing: border-box;\n    color: black;\n    font-family: \"montserrat\", sans-serif;\n  }\n\n  .cls_1 {\n    font-size: 662.98px;\n    font-family: impact ;\n  }\n\n  .cls_4 {\n    font-size: 92.06px;\n    font-family: santos_dumont ;\n  }\n\n"])), _assets_fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_2___default.a, _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3___default.a, _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_4___default.a);
+var santos_dumont = "https://res.cloudinary.com/dtxylaqlc/raw/upload/v1621867347/FFTE%20Website/SANTO____e9htic.otf";
+var impact_font = "https://res.cloudinary.com/dtxylaqlc/raw/upload/v1621866668/FFTE%20Website/impact_tsbvtk.ttf";
+var Typography = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject || (_templateObject = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n@font-face {\n    font-family: \"montserrat\";\n    src: url(", ") format(\"ttf\");\n}\n\n@font-face {\n  font-family: \"santos_dumont\";\n  // src: url(", ") format(\"woff\");\n  src: url(", ");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"impact\";\n  // src: url(", ") format(\"woff\");\n  src: url(", ");\n  font-weight: normal;\n  font-style: normal;\n}\n\nhtml {\n    box-sizing: border-box;\n    color: black;\n    font-family: \"montserrat\", sans-serif;\n  }\n\n  .cls_1 {\n    font-size: 662.98px;\n    font-family: impact; \n  }\n\n  .cls_4 {\n    font-size: 92.06px;\n    font-family: santos_dumont; \n  }\n\n"])), _assets_fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_2___default.a, _assets_fonts_santo_webfont_woff__WEBPACK_IMPORTED_MODULE_3___default.a, santos_dumont, _assets_fonts_Impact_woff__WEBPACK_IMPORTED_MODULE_4___default.a, impact_font);
 /* harmony default export */ __webpack_exports__["default"] = (Typography);
 
 /***/ }),

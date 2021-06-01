@@ -2,16 +2,17 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
-import font1 from "../assets/fonts/santo___-webfont.woff";
-import font2 from "../assets/fonts/santo___-webfont.woff2";
+// import font1 from "../assets/fonts/santo___-webfont.woff";
+// import font2 from "../assets/fonts/santo___-webfont.woff2";
 
+//   src: url(${font1}) format("woff"), url(${font2}) format("woff2");
 const NavStyles = styled.div`
-  /*@font-face {
-    font-family: "santos_dumont";
-    src: url(${font1}) format("woff"), url(${font2}) format("woff2");
-    font-weight: normal;
-    font-style: normal;
-  }*/
+  // /*@font-face {
+  //   font-family: "santos_dumont";
+
+  //   font-weight: normal;
+  //   font-style: normal;
+  // }*/
 
   h2 {
     font-family: santos_dumont, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -77,21 +78,21 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="menu_nav">
           <ul className="list">
-            <Link className="zoom" to="/">
-              <li>
+            <li>
+              <Link className="zoom" to="/">
                 <h2>HOME</h2>
-              </li>
-            </Link>
-            <Link className="zoom" to="/artist">
-              <li>
+              </Link>
+            </li>
+            <li>
+              <Link className="zoom" to="/artist">
                 <h2>ARTIST</h2>
-              </li>
-            </Link>
-            <Link className="zoom" to="https://shop.farfromtheeast.com">
-              <li>
+              </Link>
+            </li>
+            <li>
+              <Link className="zoom" to="https://shop.farfromtheeast.com">
                 <h2>SHOP</h2>
-              </li>
-            </Link>
+              </Link>
+            </li>
             {/* Code that links nav to FFTE Blog Site */}
             {/* <a
               className="zoom"
@@ -103,16 +104,16 @@ const Navbar = () => {
                 <h2>BLOG</h2>
               </li>
             </a> */}
-            <Link className="zoom" to="/blog">
-              <li>
+            <li>
+              <Link className="zoom" to="/blog">
                 <h2>BLOG</h2>
-              </li>
-            </Link>
-            <Link className="zoom" to="/connect">
-              <li>
+              </Link>
+            </li>
+            <li>
+              <Link className="zoom" to="/connect">
                 <h2>CONNECT</h2>
-              </li>
-            </Link>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

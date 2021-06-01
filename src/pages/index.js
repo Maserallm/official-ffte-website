@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import styled from "styled-components";
 // import impact from "../assets/fonts/Impact.woff";
 // import impact2 from "../assets/fonts/Impact.woff2";
@@ -11,6 +11,8 @@ import styled from "styled-components";
 
 import SEO from "../components/seo";
 import BGvideo from "../components/bgvideo";
+// import SVG from "../components/svg";
+import FFTESVG from "../components/FFTESVG";
 
 /*@font-face {
     font-family: "impact";
@@ -80,18 +82,39 @@ const HomeStyles = styled.div`
 
   .ffte {
     position: absolute;
-    top: 0%;
+    top: -3%;
     left: -10%;
     min-width: 124%;
     height: 100%;
+    overflow: hidden;
   }
 
   svg {
     position: absolute;
-    top: 0;
+    // top: 0;
+    top: -22%;
     left: 0;
-    height: 100%;
+    height: 140%;
     width: 100%;
+  }
+// NEW SVG FFTE LOGO
+
+@namespace svg url(http://www.w3.org/2000/svg);
+  svg rect {
+    fill: white;
+  }
+  svg > rect {
+      -webkit-mask: url(#mask);
+      mask: url(#mask);
+  }
+
+  .ffte_Logo_position {
+    transform: translate(0,100);
+    -webkit-transform: translate(0,100);
+  }
+
+  svg|a:link, svg|a:visited {
+    cursor: pointer;
   }
 
   /*
@@ -236,12 +259,12 @@ const HomeStyles = styled.div`
     }
 
     .ffte {
-      top: 3%;
+      top: -1%;
       left: -24%;
       min-width: 145%;
       height: 100%;
       padding-top: 0%;
-      overflow-x: hidden;
+      overflow: hidden;
     }
   }
 `;
@@ -262,164 +285,8 @@ const IndexPage = () => {
                 <BGvideo />
 
                 <div className="ffte">
-                  <svg
-                    id="Layer_1"
-                    data-name="Layer 1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 1920 812.85"
-                  >
-                    <g className="header-backdrop" mask="url(#header-mask)">
-                      <rect
-                        id="cover"
-                        x="-5%"
-                        y="-5%"
-                        width="110%"
-                        height="110%"
-                        style={{ fill: "white" }}
-                      />
-                    </g>
-                    <g className="transparent_text">
-                      <text
-                        className="cls_1"
-                        id="heading"
-                        transform="translate(417.31 593.69) scale(0.96 1)"
-                      >
-                        <Link className="artist" to="/artist">
-                          <tspan>F</tspan>
-                        </Link>
-                        <Link
-                          className="shop hvr-grow"
-                          to="https://shop.farfromtheeast.com/"
-                        >
-                          <tspan className="cls_2" x="263.83" y="0">
-                            F
-                          </tspan>
-                        </Link>
-                        {/* </text>
-                </g> */}
-                        {/* Code for the link to FFTE BLOG SITE */}
-                        {/* <a
-                          href="http://ffteblog.com/"
-                          className="blog hvr-grow"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <tspan className="cls_3" x="548.24" y="0">
-                            T
-                          </tspan>
-                        </a> */}
-                        <Link className="contact hvr-grow" to="/blog">
-                          <tspan className="cls_3" x="548.24" y="0">
-                            T
-                          </tspan>
-                        </Link>
-                        <Link className="contact hvr-grow" to="/connect">
-                          <tspan className="cls_3" x="850.24" y="0">
-                            E
-                          </tspan>
-                        </Link>
-                      </text>
-                      <Link className="artist hvr-grow" to="/artist">
-                        <text
-                          className="cls_4"
-                          transform="translate(460.35 706.24) scale(0.96 1)"
-                          id="far"
-                        >
-                          F
-                          <tspan className="cls_5" x="52.29" y="0">
-                            a
-                          </tspan>
-                          <tspan className="cls_6" x="86.9" y="0">
-                            r
-                          </tspan>
-                        </text>
-                      </Link>
-                      <Link
-                        className="shop hvr-grow "
-                        to="https://shop.farfromtheeast.com/"
-                      >
-                        <text
-                          className="cls_4"
-                          transform="translate(717.38 705.91) scale(0.96 1)"
-                          id="from"
-                        >
-                          <tspan className="cls_7">F</tspan>
-                          <tspan className="cls_8" x="39.31" y="0">
-                            r
-                          </tspan>
-                          <tspan className="cls_9" x="67.29" y="0">
-                            o
-                          </tspan>
-                          <tspan x="85.89" y="0">
-                            m
-                          </tspan>
-                        </text>
-                      </Link>
-                      {/* Code for the link to FFTE BLOG SITE */}
-                      {/* <a
-                        href="http://ffteblog.com/"
-                        className="blog hvr-grow"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <text
-                          className="cls_4"
-                          transform="translate(1023.71 705.91) scale(0.96 1)"
-                          id="the"
-                        >
-                          <tspan className="cls_10">T</tspan>
-                          <tspan className="cls_11" x="50.28" y="0">
-                            h
-                          </tspan>
-                          <tspan x="73.8" y="0">
-                            e
-                          </tspan>
-                        </text>
-                      </a> */}
-                      <Link className="blog hvr-grow">
-                        <text
-                          className="cls_4"
-                          transform="translate(1023.71 705.91) scale(0.96 1)"
-                          id="the"
-                        >
-                          <tspan className="cls_10">T</tspan>
-                          <tspan className="cls_11" x="50.28" y="0">
-                            h
-                          </tspan>
-                          <tspan x="73.8" y="0">
-                            e
-                          </tspan>
-                        </text>
-                      </Link>
-                      <Link className="contact hvr-grow" to="/connect">
-                        <text
-                          className="cls_4"
-                          transform="translate(1291.5 705.91) scale(0.96 1)"
-                          id="east"
-                        >
-                          E
-                          <tspan className="cls_12" x="50.63" y="0">
-                            a
-                          </tspan>
-                          <tspan className="cls_13" x="75.49" y="0">
-                            s
-                          </tspan>
-                          <tspan x="119.95" y="0">
-                            t
-                          </tspan>
-                        </text>
-                      </Link>
-                    </g>
-                    <mask id="header-mask">
-                      <use href="#cover" style={{ fill: "white" }} />
-                      6
-                      <use href="#heading" />
-                      <use href="#far" />
-                      <use href="#from" />
-                      <use href="#the" />
-                      <use href="#east" />
-                    </mask>
-                  </svg>
+                  {/* <SVG /> */}
+                  <FFTESVG />
                 </div>
               </div>
             </div>
