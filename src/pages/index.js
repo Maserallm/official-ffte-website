@@ -12,7 +12,8 @@ import styled from "styled-components";
 import SEO from "../components/seo";
 import BGvideo from "../components/bgvideo";
 // import SVG from "../components/svg";
-import FFTESVG from "../components/FFTESVG";
+// // import FFTESVG from "../components/FFTESVG";
+import FFTESVGLINKS from "../components/FFTESVGLINKS";
 
 /*@font-face {
     font-family: "impact";
@@ -117,6 +118,12 @@ const HomeStyles = styled.div`
     cursor: pointer;
   }
 
+  .mask-off {
+    transform: translate(0px, 100px);
+    -webkit-transform: translate(0px, 100px);
+
+  }
+
   /*
   .cls_1 {
     font-size: 662.98px;
@@ -186,6 +193,14 @@ const HomeStyles = styled.div`
     width: 70vw;
   }
 
+  @media (min-width: 1828px) {
+    .ffte {
+      position: absolute;
+      top: -8%;
+      height: 110%
+    }
+  }
+  
   @media (max-width: 1140px) {
     .vid_222 {
       width: 86vw;
@@ -286,7 +301,8 @@ const IndexPage = () => {
 
                 <div className="ffte">
                   {/* <SVG /> */}
-                  <FFTESVG />
+                  {/* <FFTESVG /> */}
+                  <FFTESVGLINKS />
                 </div>
               </div>
             </div>
