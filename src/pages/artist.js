@@ -1,9 +1,11 @@
 import React from "react";
 import { FaApple, FaYoutube, FaSpotify, FaSoundcloud } from "react-icons/fa";
 import styled from "styled-components";
+import EazySignature from "../components/EazySignatureSVG";
 
-const eazysign =
-  "https://res.cloudinary.com/dtxylaqlc/image/upload/v1605326761/eazysignature01_ptlwh3.png";
+const eazysign = "../images/eazysignature01_ptlwh3.svg";
+// const eazysign =
+//   "https://res.cloudinary.com/dtxylaqlc/image/upload/v1605326761/eazysignature01_ptlwh3.png";
 
 const ArtistStyles = styled.div`
   /* Body config */
@@ -59,6 +61,14 @@ const ArtistStyles = styled.div`
   }
 
   .cover img {
+    width: 100%;
+  }
+
+  .cover svg {
+    width: 100%;
+  }
+
+  .eazy-signature {
     width: 100%;
   }
 
@@ -192,6 +202,11 @@ const ArtistStyles = styled.div`
     .cover img {
       width: 350px;
     }
+
+    .cover svg {
+      width: 60%;
+    }
+
     .music_content {
       margin-top: 2rem;
       display: grid;
@@ -234,7 +249,12 @@ const Artist = () => {
           {/* <!-- Header Landing Cover --> */}
           <div className="out_cover">
             <div className="cover">
-              <img src={eazysign} alt="Eazy Signature" />
+              {/* <img src={eazysign} alt="Eazy Signature" /> */}
+              {/* <img
+                src="../images/eazysignature01_ptlwh3.svg"
+                alt="Eazy Signature"
+              /> */}
+              <EazySignature />
             </div>
           </div>
 
