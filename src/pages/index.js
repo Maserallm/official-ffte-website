@@ -83,7 +83,7 @@ const HomeStyles = styled.div`
 
   .ffte {
     position: absolute;
-    top: -3%;
+    top: -2%;
     left: -10%;
     min-width: 124%;
     height: 100%;
@@ -246,7 +246,7 @@ const HomeStyles = styled.div`
     }
 
     .ffte {
-      top: 0%;
+      top: -1%;
       left: -13%;
       min-width: 126%;
     
