@@ -105,7 +105,7 @@ const Navbar = () => {
               </li>
             </a> */}
             <li>
-              <Link className="zoom" to="/blog">
+              <Link className="zoom" to="https://blog.farfromtheeast.com/">
                 <h2>BLOG</h2>
               </Link>
             </li>

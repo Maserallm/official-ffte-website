@@ -38,7 +38,7 @@ const FFTESVGLINKS = () => {
               </Link>
             </g>
             <g className="st0">
-              <Link className="blog" to="/blog">
+              <Link className="blog" to="https://blog.farfromtheeast.com/">
                 <path
                   className="st1"
                   id="heading"
@@ -132,7 +132,11 @@ const FFTESVGLINKS = () => {
                   m
                 </text>
               </Link>
-              <Link className="cls_4" to="/blog" id="blog">
+              <Link
+                className="cls_4"
+                to="https://blog.farfromtheeast.com/"
+                id="blog"
+              >
                 <text
                   transform="matrix(0.96 0 0 1 1032.8164 705.9102)"
                   className="st1 st2 st3 st5"
