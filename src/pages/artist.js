@@ -305,7 +305,7 @@ const Artist = () => {
               <div className="music_content">
                 <div className="music_content_item">
                   <a
-                    href="https://youtu.be/PyWJ61rRDzA"
+                    href="https://www.youtube.com/watch?v=Geo5j6x3TPU"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
