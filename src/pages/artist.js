@@ -278,11 +278,13 @@ const Artist = () => {
                 <h4>EAZY</h4>
                 <p>
                   Looking into the past of Eazy’s musical journey, 2018-2019
-                  were promising years for the aspiring From his 2018 project,
-                  Forever Link, highlighting the loyalty amongst his
-                  relationships and surroundings. To his well-established
-                  collaboration with fellow Polk County artist, Hard Nard in Why
-                  Not Snap. 2019, proved to be a key year for the artist growth.
+                  were promising years for the aspiring artist. From his 2018
+                  project,
+                  <e>Forever Link</e>, highlighting the loyalty amongst his
+                  relationships and surroundings to his well-established
+                  collaboration with fellow Polk County artist, Hard Nard, in{" "}
+                  <e>Why Not Snap</e>. 2019, proved to be a key year for the
+                  artist growth.
                   <br />
                   <br />
                   Additionally, B5, Eazy’s business partner, has helped the
@@ -301,6 +303,49 @@ const Artist = () => {
                 </p>
               </div>
               <div className="music_content">
+                <div className="music_content_item">
+                  <a
+                    href="https://youtu.be/PyWJ61rRDzA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://res.cloudinary.com/dtxylaqlc/image/upload/v1623988766/FFTE%20Website/Do_Away_With_y4alfe.png"
+                      alt="Do Away With"
+                    />
+                  </a>
+                  <ul className="music_links">
+                    <li>
+                      <a
+                        href="https://music.apple.com/us/album/do-away-with-single/1572899711"
+                        target="_blank"
+                        rel="noopener noreferrer" // eslint-disable-next-line
+                      >
+                        {/* eslint-disable-next-line*/}
+                        <p className="music_links_fa">
+                          <FaApple />
+                          <i className="fab fa-apple"></i>
+                        </p>
+                        {/* <Apple /> */}
+                      </a>
+                    </li>
+                    {/* Add Spotify link */}
+                    <li></li>
+                    <li>
+                      <a
+                        href="https://music.youtube.com/playlist?list=OLAK5uy_mokFdfcGzNkwcMQopt06ERMgKPbvQHAlc&feature=share"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <p className="music_links_fa">
+                          <FaYoutube />
+                          <i className="fab fa-youtube"></i>
+                        </p>
+                        {/* <Youtube /> */}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
                 <div className="music_content_item">
                   <a
                     href="https://youtu.be/PyWJ61rRDzA"
