@@ -330,7 +330,20 @@ const Artist = () => {
                       </a>
                     </li>
                     {/* Add Spotify link */}
-                    <li></li>
+                    <li>
+                      <a
+                        href="https://open.spotify.com/album/4EfneqPLoK2Te0dbVIqMaP?si=s8WJxebMTnKoGr6iNp5X4g&dl_branch=1"
+                        target="_blank"
+                        rel="noopener noreferrer" // eslint-disable-next-line
+                      >
+                        {/* eslint-disable-next-line*/}
+                        <p className="music_links_fa">
+                          <FaSpotify />
+                          <i className="fab fa-spotify"></i>
+                        </p>
+                        {/* <Spotify /> */}
+                      </a>
+                    </li>
                     <li>
                       <a
                         href="https://music.youtube.com/playlist?list=OLAK5uy_mokFdfcGzNkwcMQopt06ERMgKPbvQHAlc&feature=share"
